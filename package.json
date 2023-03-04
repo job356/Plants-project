@@ -1,0 +1,23 @@
+{
+  "name": "plants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/job356/Plants-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/job356/Plants-project/issues"
+  },
+  "homepage": "https://github.com/job356/Plants-project#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
