@@ -1,0 +1,19 @@
+.button {
+    @extend %font-add;
+    @include font ($size: 2rem, $weight: 400, $height: 2.6rem);
+    padding: 12px 40px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: transparent;
+    color: $orange-title;
+    &:hover {
+        @extend %transition;
+        background: #E06733;
+        color: #FFFFFF;
+
+    }
+}
+
+.button__welcome {
+    color: #000000;
+}

@@ -8,10 +8,13 @@
 //base
 @import "base/base";
 @import "base/logo";
+@import "base/buttons";
 
 //components
 @import "components/navigation";
+@import "components/welcome";
 
 //layout
 @import "layout/wrapper.scss";
 @import "layout/header";
+@import "layout/column";
