@@ -1,0 +1,28 @@
+.about {
+    padding: 82px 0 105px;
+}
+
+.about-content {
+    padding-right: 155px;
+}
+
+.about-content__title {
+    @include font ($size: 4rem, $weight: 400, $height: 5.2rem);
+    color: $green-title;
+    margin: 68px 0 40px;
+    >* {
+        color: $orange-title;
+    }
+}
+
+.about-content__text {
+    @extend %font-add;
+    @include font ($size: 2rem, $weight: 400, $height: 3rem);
+    margin: 0%;
+    color: $main-text;
+
+}
+
+.about-background__img {
+    display: block;
+}

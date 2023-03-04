@@ -311,7 +311,7 @@ template {
   font-family: "Inika", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.welcome-content__text, .welcome-content__title, .button {
+.about-content__text, .welcome-content__text, .welcome-content__title, .button {
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -411,6 +411,39 @@ body {
   line-height: 3.5rem;
   color: #636060;
   margin: 42px 0 48px;
+}
+
+.about {
+  padding: 82px 0 105px;
+}
+
+.about-content {
+  padding-right: 155px;
+}
+
+.about-content__title {
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 5.2rem;
+  color: #499A18;
+  margin: 68px 0 40px;
+}
+.about-content__title > * {
+  color: #E06733;
+}
+
+.about-content__text {
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin: 0%;
+  color: #636060;
+}
+
+.about-background__img {
+  display: block;
 }
 
 .wrapper {
