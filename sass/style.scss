@@ -1,0 +1,12 @@
+@import "base/normilize";
+
+//abstracts
+@import "abstracts/constans";
+@import "abstracts/placeholders";
+@import "abstracts/mixins";
+
+//base
+@import "base/base";
+
+//layout
+@import "layout/wrapper.scss";
