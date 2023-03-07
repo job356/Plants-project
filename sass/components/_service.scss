@@ -1,0 +1,52 @@
+.service {
+    padding: 35px 0 119px;
+    background: $bg-section;
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    padding-bottom: 97px;
+}
+
+.service-title {
+    @include font ($size: 4rem, $weight: 400, $height: 5.2rem);
+    color: $green-title;
+    margin: 0%;
+}
+
+.service-filters {
+    display: flex;
+    gap: 38px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.service-item__img {
+    width: 330px;
+    height: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.service-content__name {
+    @extend %font-add;
+    @include font ($size: 2rem, $weight: 700, $height: 2rem);
+    text-align: center;
+    color: $orange-title;
+    margin: 10px 0 10px;
+}
+
+.service-content__description {
+    @extend %font-add;
+    @include font ($size:1.6rem, $weight: 400, $height: 2rem);
+    text-align: center;
+    color: $grey-title;
+    margin: 0 0 36px;
+}
