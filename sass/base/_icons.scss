@@ -4,6 +4,11 @@
     background-image: url(/Assets/icons/price-icons/accordion_btn.svg);
     @extend %transition;
     cursor: pointer;
+    &_contacted {
+        width: 16px;
+        height: 16px;
+        background-image: url(/Assets/icons/price-icons/accordion_btn_hover.svg);
+    }
     &:hover {
         background-image: url(/Assets/icons/price-icons/accordion_btn_hover.svg);
 

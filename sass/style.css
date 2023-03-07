@@ -311,7 +311,7 @@ template {
   font-family: "Inika", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.prices__subtitle, .prices__title, .price-name, .service-content__description, .service-content__name, .about-content__text, .welcome-content__text, .welcome-content__title, .button {
+.city-selection_placeholder, .prices__subtitle, .prices__title, .price-name, .service-content__description, .service-content__name, .about-content__text, .welcome-content__text, .welcome-content__title, .button {
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -372,6 +372,11 @@ body {
   height: 16px;
   background-image: url(/Assets/icons/price-icons/accordion_btn.svg);
   cursor: pointer;
+}
+.accordion_btn_contacted {
+  width: 16px;
+  height: 16px;
+  background-image: url(/Assets/icons/price-icons/accordion_btn_hover.svg);
 }
 .accordion_btn:hover {
   background-image: url(/Assets/icons/price-icons/accordion_btn_hover.svg);
@@ -590,6 +595,48 @@ body {
 .prices-info__icon {
   width: 283.96px;
   height: 318.41px;
+}
+
+.contact {
+  background: #EDF2EC;
+}
+
+.contact__wrapper {
+  padding-top: 45px;
+}
+
+.contact-content {
+  display: flex;
+  gap: 113px;
+}
+
+.contact__title {
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  margin: 15px 0 37px;
+  color: #499A18;
+}
+
+.city-selection {
+  display: flex;
+  align-items: center;
+  gap: 337.31px;
+  padding: 5px 35px 5px 20px;
+  margin-left: 259px;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.city-selection_placeholder {
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0.05em;
+  margin: 0%;
+  color: #717171;
 }
 
 .wrapper {
