@@ -6,6 +6,9 @@
     border-radius: 5px;
     background: transparent;
     color: $orange-title;
+    &__prices {
+        margin-bottom: 7px;
+    }
     &:hover {
         @extend %transition;
         background: #E06733;

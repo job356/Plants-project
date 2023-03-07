@@ -9,12 +9,14 @@
 @import "base/base";
 @import "base/logo";
 @import "base/buttons";
+@import "base/icons";
 
 //components
 @import "components/navigation";
 @import "components/welcome";
 @import "components/about";
 @import "components/service";
+@import "components/prices";
 
 //layout
 @import "layout/wrapper.scss";

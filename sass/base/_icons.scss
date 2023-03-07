@@ -1,0 +1,15 @@
+.accordion_btn {
+    width: 16px;
+    height: 16px;
+    background-image: url(/Assets/icons/price-icons/accordion_btn.svg);
+    @extend %transition;
+    cursor: pointer;
+    &:hover {
+        background-image: url(/Assets/icons/price-icons/accordion_btn_hover.svg);
+
+    }
+    &:active {
+        background-image: url(/Assets/icons/price-icons/accordion_btn_hover.svg);
+        transform: rotate(-180deg);
+    }
+}
