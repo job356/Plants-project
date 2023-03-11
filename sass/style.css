@@ -553,12 +553,25 @@ body {
   padding: 35px 0 119px;
   background: #EDF2EC;
 }
+@media (max-width: 1223px) {
+  .service {
+    padding: 60px 0 70px;
+  }
+}
 
 .service-header {
   display: flex;
   align-items: center;
   gap: 140px;
   padding-bottom: 97px;
+}
+@media (max-width: 1223px) {
+  .service-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .service-title {
@@ -568,6 +581,14 @@ body {
   line-height: 5.2rem;
   color: #499A18;
   margin: 0%;
+}
+@media (max-width: 1223px) {
+  .service-title {
+    font-style: normal;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 4.6rem;
+  }
 }
 
 .service-filters {
@@ -582,12 +603,13 @@ body {
   border-radius: 20px;
 }
 
-.service-item__img {
-  width: 330px;
-  height: 450px;
-  border-radius: 20px 20px 0px 0px;
+picture {
+  display: contents;
 }
 
+.service-item__img {
+  border-radius: 20px 20px 0px 0px;
+}
 .service-content {
   border: 1px solid #E3E1D5;
   border-radius: 0 0 20px 20px;
@@ -611,6 +633,12 @@ body {
   text-align: center;
   color: #717171;
   margin: 0 0 36px;
+}
+@media (max-width: 1223px) {
+  .service-content__description {
+    margin: 0 38px 16px;
+    text-align: left;
+  }
 }
 
 .prices {
@@ -762,6 +790,12 @@ body {
   grid-template-columns: 330px 330px 330px;
   grid-template-rows: 450px 450px;
   gap: 55px 116px;
+}
+@media (max-width: 1223px) {
+  .layout-3-column {
+    grid-template-columns: 281px 281px;
+    gap: 38px 106px;
+  }
 }
 
 .footer__wrapper {

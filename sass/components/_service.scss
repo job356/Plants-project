@@ -1,6 +1,9 @@
 .service {
     padding: 35px 0 119px;
     background: $bg-section;
+    @include media-tablet {
+        padding: 60px 0 70px;
+    }
 }
 
 .service-header {
@@ -8,12 +11,21 @@
     align-items: center;
     gap: 140px;
     padding-bottom: 97px;
+    @include media-tablet {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .service-title {
     @include font ($size: 4rem, $weight: 400, $height: 5.2rem);
     color: $green-title;
     margin: 0%;
+    @include media-tablet {
+        @include font ($size: 3.5rem, $weight: 400, $height: 4.6rem);
+    }
 }
 
 .service-filters {
@@ -28,10 +40,15 @@
     border-radius: 20px;
 }
 
+picture {
+    display: contents;
+}
+
 .service-item__img {
-    width: 330px;
-    height: 450px;
     border-radius: 20px 20px 0px 0px;
+    @include media-tablet {
+       
+    }
 }
 
 .service-content {
@@ -53,4 +70,8 @@
     text-align: center;
     color: $grey-title;
     margin: 0 0 36px;
+    @include media-tablet {
+        margin: 0 38px 16px;
+        text-align: left;
+    }
 }

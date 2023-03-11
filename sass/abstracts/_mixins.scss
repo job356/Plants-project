@@ -15,6 +15,10 @@
     grid-template-columns: 330px 330px 330px;
     grid-template-rows: 450px 450px;
     gap: 55px 116px;
+    @include media-tablet {
+        grid-template-columns: 281px 281px;
+        gap: 38px 106px;
+    } 
 }
 
 @mixin media-tablet {
