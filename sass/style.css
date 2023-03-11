@@ -870,6 +870,12 @@ picture {
   justify-content: space-between;
   padding: 41px 0 41px;
 }
+@media (max-width: 1223px) {
+  .footer__wrapper {
+    flex-direction: column;
+    padding: 28px 0 28px;
+  }
+}
 
 .copirights {
   font-style: normal;
@@ -878,6 +884,14 @@ picture {
   line-height: 5rem;
   margin: 0%;
   color: #000000;
+}
+@media (max-width: 1223px) {
+  .copirights {
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+  }
 }
 
 .footer-name {
