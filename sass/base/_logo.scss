@@ -4,7 +4,10 @@
 }
 
 .logo__text {
-   @include font ($size: 16px, $weight: 700, $height: 5rem);
+   @include font ($size: 1.6rem, $weight: 400, $height: 5rem);
    margin: 0%;
    color: $links-nav;
+   @include media-tablet {
+    @include font ($size: 1.6rem, $weight: 400, $height: 5rem);
+   }
 }

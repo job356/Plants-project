@@ -1,6 +1,6 @@
 .navigation {
     @extend %font-prim;
-    @include font ($size:1.6rem, $weight:700, $height: 5rem);
+    @include font ($size:1.6rem, $weight:400, $height: 5rem);
     display: flex;
     gap: 44px;
     list-style: none;
@@ -12,6 +12,7 @@
    color: $links-nav;
    text-decoration: none;
    &:hover {
+    @include font ($size:1.6rem, $weight: 700, $height: 5rem);
     color: $orange-title;
     @extend %transition;
    }
