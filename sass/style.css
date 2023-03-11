@@ -761,6 +761,18 @@ picture {
   display: flex;
   gap: 113px;
 }
+@media (max-width: 1223px) {
+  .contact-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0px;
+  }
+}
+
+.contact__background {
+  width: 200px;
+  height: 249px;
+}
 
 .contact__title {
   font-style: normal;
@@ -769,6 +781,12 @@ picture {
   line-height: 5.2rem;
   margin: 15px 0 37px;
   color: #499A18;
+}
+@media (max-width: 1223px) {
+  .contact__title {
+    margin: 40px 0 100px;
+    text-align: center;
+  }
 }
 
 .city-selection {
@@ -779,6 +797,11 @@ picture {
   margin-left: 259px;
   background: #D6E7D2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1223px) {
+  .city-selection {
+    margin: 0 0 250px;
+  }
 }
 
 .city-selection_placeholder {

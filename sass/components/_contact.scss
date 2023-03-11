@@ -9,12 +9,26 @@
 .contact-content {
     display: flex;
     gap: 113px;
+    @include media-tablet {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+    }
+}
+
+.contact__background {
+    width: 200px;
+    height: 249px;
 }
 
 .contact__title {
     @include font ($size: 4rem, $weight: 700, $height: 5.2rem);
     margin: 15px 0 37px;
     color: $green-title;
+    @include media-tablet {
+        margin: 40px 0 100px;
+        text-align: center;
+    }
 }
 
 .city-selection {
@@ -25,6 +39,9 @@
     margin-left: 259px;
     background: #D6E7D2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    @include media-tablet {
+        margin: 0 0 250px
+    }
 }
 
 .city-selection_placeholder {
