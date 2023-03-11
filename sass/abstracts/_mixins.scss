@@ -16,4 +16,8 @@
     grid-template-rows: 450px 450px;
     gap: 55px 116px;
 }
+
+@mixin media-tablet {
+    @media (max-width: 1223px) { @content; }
+}
     
