@@ -9,6 +9,9 @@
     color: $orange-title;
     &__prices {
         margin-bottom: 7px;
+        @include media-tablet {
+            margin-bottom: 33px;
+        }
     }
     &:hover {
         @extend %transition;

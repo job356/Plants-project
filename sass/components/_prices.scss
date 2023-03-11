@@ -1,5 +1,8 @@
 .prices {
     padding: 40px 0 11.9px;
+    @include media-tablet {
+        padding: 40px 0 73.02px;
+    }
 }
 
 .prices-selection {
@@ -32,6 +35,9 @@
     display: flex;
     flex-direction: column;
     align-items: end;
+    @include media-tablet {
+        padding-top: 104px;
+    }
 }
 
 .prices__title {
@@ -39,6 +45,10 @@
     @include font ($size: 4rem, $weight: 700, $height: 4.8rem);
     margin: 0 0 60px;
     color: #000000;
+    @include media-tablet {
+        @include font ($size: 3.5rem, $weight: 700, $height: 4.2rem);
+        margin: 0 0 62px;
+    }
 }
 
 .prices__subtitle {
@@ -47,6 +57,10 @@
     margin: 0 0 39px;
     text-align: right;
     color: #000000;
+    @include media-tablet {
+        @include font ($size: 2.5rem, $weight: 700, $height: 3.5rem);
+        text-align: center;
+    }
     >* {
         color: $green-title;
     }
@@ -55,4 +69,8 @@
 .prices-info__icon {
     width: 283.96px;
     height: 318.41px;
+    @include media-tablet {
+        width: 152px;
+        height: 175px;
+    }
 }
