@@ -7,6 +7,11 @@
     border-radius: 5px;
     background: transparent;
     color: $orange-title;
+    @include media-mobile {
+        @include font ($size: 1.5rem, $weight: 400, $height: 2rem);
+        width: 121px;
+        padding: 8px 0;
+    }
     &__prices {
         margin-bottom: 7px;
         @include media-tablet {
@@ -24,4 +29,7 @@
 .button__welcome {
     @include font ($size: 1.6rem, $weight: 400, $height: 2rem);
     color: #000000;
+    @include media-mobile {
+        @include font ($size: 1.4rem, $weight: 400, $height: 2rem);
+    }
 }

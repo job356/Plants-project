@@ -8,6 +8,9 @@
 @mixin column {
     display: flex;
     justify-content: space-between;
+    @include media-mobile {
+        flex-direction: column;
+    } 
 }
 
 @mixin column-grid {
