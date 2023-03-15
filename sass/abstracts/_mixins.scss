@@ -24,4 +24,8 @@
 @mixin media-tablet {
     @media (max-width: 1223px) { @content; }
 }
+
+@mixin media-mobile {
+    @media (max-width: 767px) { @content; }
+}
     

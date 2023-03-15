@@ -1,6 +1,13 @@
 .logo {
     display: flex;
+    align-items: baseline;
     gap: 1px;
+}
+
+.logo__icon {
+    width: 19.52px;
+    height: 19.55px;
+    background-image: url(/Assets/icons/logo-icons/logo.svg);
 }
 
 .logo__text {
@@ -9,5 +16,8 @@
    color: $links-nav;
    @include media-tablet {
     @include font ($size: 1.6rem, $weight: 400, $height: 5rem);
+   }
+   @include media-mobile {
+    @include font ($size: 1.6rem, $weight: 400, $height: 2.1rem);
    }
 }

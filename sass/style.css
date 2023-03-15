@@ -333,7 +333,14 @@ body {
 
 .logo {
   display: flex;
+  align-items: baseline;
   gap: 1px;
+}
+
+.logo__icon {
+  width: 19.52px;
+  height: 19.55px;
+  background-image: url(/Assets/icons/logo-icons/logo.svg);
 }
 
 .logo__text {
@@ -350,6 +357,14 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  .logo__text {
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.1rem;
   }
 }
 
@@ -419,6 +434,11 @@ svg {
   list-style: none;
   margin: 0%;
   padding: 0%;
+}
+@media (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
 }
 
 .navigation__item {
@@ -814,6 +834,23 @@ picture {
   color: #717171;
 }
 
+.burger-menu {
+  display: none;
+}
+@media (max-width: 767px) {
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.burger-menu__line {
+  width: 40px;
+  height: 2px;
+  background: #717171;
+}
+
 .wrapper {
   max-width: 1222px;
   margin: auto;
@@ -824,6 +861,12 @@ picture {
     padding: 0 50px;
   }
 }
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 330px;
+    padding: 0 25px;
+  }
+}
 
 .header {
   padding: 50px 0;
@@ -832,6 +875,11 @@ picture {
 @media (max-width: 1223px) {
   .header {
     padding: 35px 0;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 42px 0 24px;
   }
 }
 
