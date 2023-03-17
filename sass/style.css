@@ -1102,6 +1102,11 @@ picture {
     padding: 28px 0 28px;
   }
 }
+@media (max-width: 767px) {
+  .footer__wrapper {
+    padding: 23px 0 15px;
+  }
+}
 
 .copirights {
   font-style: normal;

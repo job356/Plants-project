@@ -7,6 +7,9 @@
         flex-direction: column;
         padding: 28px 0 28px;
     }
+    @include media-mobile {
+        padding: 23px 0 15px;
+    }
 }
 
 .copirights {
