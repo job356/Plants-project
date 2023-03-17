@@ -22,6 +22,11 @@
         grid-template-columns: 281px 281px;
         gap: 38px 106px;
     } 
+    @include media-mobile {
+        grid-template-columns: 280px;
+        justify-content: center;
+        gap: 34px;
+    }
 }
 
 @mixin media-tablet {
