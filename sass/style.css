@@ -931,9 +931,17 @@ picture {
   }
 }
 
-.contact__background {
-  width: 200px;
-  height: 249px;
+@media (max-width: 1223px) {
+  .contact__background {
+    width: 200px;
+    height: 249px;
+  }
+}
+@media (max-width: 767px) {
+  .contact__background {
+    width: 100px;
+    height: 124.25px;
+  }
 }
 
 .contact__title {
@@ -950,6 +958,15 @@ picture {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  .contact__title {
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.3rem;
+    margin: 25px 0 84px;
+  }
+}
 
 .city-selection {
   display: flex;
@@ -963,6 +980,12 @@ picture {
 @media (max-width: 1223px) {
   .city-selection {
     margin: 0 0 250px;
+  }
+}
+@media (max-width: 767px) {
+  .city-selection {
+    gap: 187.31px;
+    margin: 0 0 128px;
   }
 }
 
