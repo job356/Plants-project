@@ -398,6 +398,11 @@ body {
     margin-bottom: 33px;
   }
 }
+@media (max-width: 767px) {
+  .button__prices {
+    margin: 0%;
+  }
+}
 .button:hover {
   background: #E06733;
   color: #FFFFFF;
@@ -763,6 +768,11 @@ picture {
     padding: 40px 0 73.02px;
   }
 }
+@media (max-width: 767px) {
+  .prices {
+    padding: 25px 0 42px;
+  }
+}
 
 .prices-selection {
   display: flex;
@@ -772,6 +782,12 @@ picture {
   border: 1px solid #E3E1D5;
   border-radius: 20px;
 }
+@media (max-width: 767px) {
+  .prices-selection {
+    gap: 13.92px;
+    padding: 29px 22px;
+  }
+}
 
 .price-item {
   display: flex;
@@ -780,6 +796,12 @@ picture {
   padding: 15px 40px;
   border-radius: 20px;
   background: #EDF2EC;
+}
+@media (max-width: 767px) {
+  .price-item {
+    gap: 5px;
+    padding: 15px 40px 15px 30px;
+  }
 }
 
 .price-name {
@@ -791,6 +813,11 @@ picture {
   margin: 0%;
   color: #000000;
 }
+@media (max-width: 767px) {
+  .price-name {
+    width: 89px;
+  }
+}
 
 .prices-info {
   display: flex;
@@ -800,6 +827,12 @@ picture {
 @media (max-width: 1223px) {
   .prices-info {
     padding-top: 104px;
+  }
+}
+@media (max-width: 767px) {
+  .prices-info {
+    align-items: center;
+    padding-top: 15px;
   }
 }
 
@@ -818,6 +851,16 @@ picture {
     font-weight: 700;
     line-height: 4.2rem;
     margin: 0 0 62px;
+  }
+}
+@media (max-width: 767px) {
+  .prices__title {
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 42px;
+    text-align: center;
   }
 }
 
@@ -839,6 +882,15 @@ picture {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  .prices__subtitle {
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin: 0 0 15px;
+  }
+}
 .prices__subtitle > * {
   color: #499A18;
 }
@@ -851,6 +903,11 @@ picture {
   .prices-info__icon {
     width: 152px;
     height: 175px;
+  }
+}
+@media (max-width: 767px) {
+  .prices-info__icon {
+    display: none;
   }
 }
 
@@ -980,6 +1037,7 @@ picture {
 @media (max-width: 767px) {
   .layout-2-column {
     flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 1223px) {

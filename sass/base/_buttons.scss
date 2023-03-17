@@ -17,6 +17,9 @@
         @include media-tablet {
             margin-bottom: 33px;
         }
+        @include media-mobile {
+            margin: 0%;
+        }
     }
     &:hover {
         @extend %transition;
