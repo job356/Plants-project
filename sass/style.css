@@ -315,7 +315,7 @@ template {
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navigation__item:hover, .accordion_btn, .button:hover {
+.navigation__item:hover, .accordion_btn, .button:focus, .button:active, .button:hover {
   transition: all 0.2s ease;
 }
 
@@ -379,6 +379,7 @@ body {
   border-radius: 5px;
   background: transparent;
   color: #E06733;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .button {
@@ -404,6 +405,14 @@ body {
   }
 }
 .button:hover {
+  background: #E06733;
+  color: #FFFFFF;
+}
+.button:active {
+  background: #E06733;
+  color: #FFFFFF;
+}
+.button:focus {
   background: #E06733;
   color: #FFFFFF;
 }
@@ -720,6 +729,10 @@ svg {
   flex-direction: column;
   box-sizing: border-box;
   border-radius: 20px;
+}
+
+.service-item_blur {
+  filter: blur(2px);
 }
 
 picture {
